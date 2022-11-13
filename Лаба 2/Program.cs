@@ -35,7 +35,6 @@ namespace Лаба_2
             int count = 0;
             for (i = 0; i <= n; i++)
             {
-                
                 num = Convert.ToInt32(Console.ReadLine());
                 if (num % 2 != 0)
                 {
