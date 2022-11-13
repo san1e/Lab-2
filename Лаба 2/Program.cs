@@ -33,16 +33,16 @@ namespace Лаба_2
             int num = 1;
             int i;
             int count = 0;
-            for (i = 0; count <= n;)
+            for (i = 0; i <= n; i++)
             {
-                count++;
+                
                 num = Convert.ToInt32(Console.ReadLine());
                 if (num % 2 != 0)
                 {
-                    i++;
+                    count++; ;
                 }
             }
-            Console.WriteLine($"Number of odd elements = {i}");
+            Console.WriteLine($"Number of odd elements = {count}");
         }
         static void DoBlock_1_2()
         {
