@@ -15,7 +15,7 @@ namespace Лаба_2
             int i = 0;
             int count = 0;
             
-            while (count <= n)
+            while (count < n)
             {
                 count++;
                 num = Convert.ToInt32(Console.ReadLine());
@@ -33,7 +33,7 @@ namespace Лаба_2
             int num = 1;
             int i;
             int count = 0;
-            for (i = 0; i <= n; i++)
+            for (i = 0; i < n; i++)
             {
                 num = Convert.ToInt32(Console.ReadLine());
                 if (num % 2 != 0)
@@ -58,7 +58,7 @@ namespace Лаба_2
                 {
                     i++;
                 }
-            } while (count <= n);
+            } while (count < n);
 
             Console.WriteLine($"Number of odd elements = {i}");
         }
