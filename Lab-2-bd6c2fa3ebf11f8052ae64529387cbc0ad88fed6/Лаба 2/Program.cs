@@ -144,7 +144,7 @@ namespace Лаба_2
                 mul2 *= b;
                 b = mul2;
             }
-            if (a == 0 || b == 0)
+            if (b == 0)
             {
                 Console.WriteLine("Try another number");
             }
@@ -185,7 +185,7 @@ namespace Лаба_2
                 mul2 *= b;
                 b = mul2;
             }
-            if (a == 0 || b == 0)
+            if (b == 0)
             {
                 Console.WriteLine("Try another number");
             }
@@ -226,7 +226,7 @@ namespace Лаба_2
                 mul2 *= b;
                 b = mul2;
             } while (num <= 63 && num2 <= 64);
-            if (a == 0 || b == 0)
+            if (b == 0)
             {
                 Console.WriteLine("Try another number");
             }
@@ -302,4 +302,4 @@ namespace Лаба_2
             } while (choice != 0);
         }
     }
-}//проверка гита11
+}
