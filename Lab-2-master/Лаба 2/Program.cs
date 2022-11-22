@@ -302,4 +302,4 @@ namespace Лаба_2
             } while (choice != 0);
         }
     }
-}//git check mac
+}//git check 
